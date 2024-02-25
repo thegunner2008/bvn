@@ -1,0 +1,1165 @@
+{
+  "formules": [
+    {
+      "type": " giap tis ",
+      "datas": [
+        "daychuot",
+        "hangchuot",
+        "day chuot",
+        "hang chuot",
+        "giap chuot",
+        "giapchuot",
+        "giapti",
+        "con chuot",
+        "conchuot"
+      ]
+    },
+
+    {
+      "type": " giap tys ",
+      "datas": [
+        "daychuot",
+        "hangchuot",
+        "day chuot",
+        "hang chuot",
+        "giap chuot",
+        "giapchuot",
+        "giapti",
+        "con chuot",
+        "conchuot"
+      ]
+    },
+
+    {
+      "type": " giap suu ",
+      "datas": [
+        "daytrau",
+        "hangsuu",
+        "hangtrau",
+        "day suu",
+        "day trau",
+        "hang suu",
+        "hang trau",
+        "giap trau",
+        "giaptrau",
+        "giapsuu"
+      ]
+    },
+
+    {
+      "type": " giap hoi ",
+      "datas": [
+        "daylon",
+        "dayhoi",
+        "hanglon",
+        "hanghoi",
+        "day lon",
+        "day hoi",
+        "hang lon",
+        "hang hoi",
+        "giaplon",
+        "giap lon",
+        "giaphoi",
+        "con hoi",
+        "conhoi",
+        "conlon",
+        "con lon"
+      ]
+    },
+
+    {
+      "type": " giap dan ",
+      "datas": [
+        "dayho",
+        "daydan",
+        "hangho",
+        "hangdan",
+        "day ho ",
+        "day dan",
+        "hang ho ",
+        "hang dan",
+        "giap ho ",
+        "giapho ",
+        "giapdan"
+      ]
+    },
+
+    {
+      "type": " giap mao ",
+      "datas": [
+        "daymeo",
+        "daymao",
+        "hangmeo",
+        "hangmao",
+        "day meo",
+        "day mao",
+        "hang meo",
+        "hang mao",
+        "giap meo",
+        "giapmeo",
+        "giapmao"
+      ]
+    },
+
+    {
+      "type": " giap thin ",
+      "datas": [
+        "dayrong",
+        "daythin",
+        "hangrong",
+        "hangthin",
+        "day rong",
+        "day thin",
+        "hang rong",
+        "hang thin",
+        "giap rong",
+        "giaprong",
+        "giapthin"
+      ]
+    },
+
+    {
+      "type": " giap tij ",
+      "datas": [
+        "dayran",
+        "hangran",
+        "day ran",
+        "hang ran",
+        "giap ran",
+        "giapran"
+      ]
+    },
+
+    {
+      "type": " giap tyj ",
+      "datas": [
+        "dayran",
+        "hangran",
+        "day ran",
+        "hang ran",
+        "giap ran",
+        "giapran"
+      ]
+    },
+
+    {
+      "type": " giap ngo ",
+      "datas": [
+        "dayngua",
+        "dayngo",
+        "hangngua",
+        "hangngo",
+        "day ngua",
+        "day ngo",
+        "hang ngua",
+        "hang ngo",
+        "giap ngua",
+        "giapngua",
+        "giapngo"
+      ]
+    },
+
+    {
+      "type": " giap mui ",
+      "datas": [
+        "daymui",
+        "hangmui",
+        "day mui",
+        "hang mui",
+        "giapmui"
+      ]
+    },
+
+    {
+      "type": " giap tuat ",
+      "datas": [
+        "daycho",
+        "daytuat",
+        "hangcho",
+        "hangtuat",
+        "day cho",
+        "day tuat",
+        "hang cho",
+        "hang tuat",
+        "giapcho",
+        "giap cho",
+        "giaptuat"
+      ]
+    },
+
+    {
+      "type": " giap than ",
+      "datas": [
+        "daykhi",
+        "daythan",
+        "hangkhi",
+        "hangthan",
+        "day khi",
+        "day than",
+        "hang khi",
+        "hang than",
+        "giap khi",
+        "giapkhi",
+        "giapthan"
+      ]
+    },
+
+    {
+      "type": " giap dau ",
+      "datas": [
+        "dayga",
+        "daydau",
+        "hangga",
+        "hangdau",
+        "day ga",
+        "day dau",
+        "hang ga",
+        "hang dau",
+        "giap ga",
+        "giapga",
+        "giapdau"
+      ]
+    },
+
+    {
+      "type": " boj ",
+      "datas": [
+        "boj",
+        " he "
+      ]
+    },
+
+    {
+      "type": " bor ",
+      "datas": [
+        "bor",
+        "loai",
+        "loaj"
+      ]
+    },
+    {
+      "type": " ko ",
+      "datas": [
+        "khong",
+        "kho ng",
+        "kh o ng"
+      ]
+    },
+    {
+      "type": "tong",
+      "datas": [
+        "tog",
+        "tg",
+        "tng"
+      ]
+    },
+    {
+      "type": "dau",
+      "datas": [
+        "da u",
+        "d au",
+        "d a u"
+      ]
+    },
+    {
+      "type": "dit",
+      "datas": [
+        "djt",
+        "di t",
+        "cuoi",
+        "d it",
+        "d i t"
+      ]
+    },
+    {
+      "type": " < ",
+      "datas": [
+        "behon",
+        "thaphon",
+        "nhohon",
+        "be hon",
+        "thap hon",
+        "nho hon"
+      ]
+    },
+    {
+      "type": " > ",
+      "datas": [
+        "lonhon",
+        "caohon",
+        "tohon",
+        "lon hon",
+        "cao hon",
+        "to hon"
+      ]
+    },
+    {
+      "type": " det ",
+      "datas": [
+        ", det",
+        "de 8 ",
+        "de 8,",
+        "de 8;",
+        "de an 8",
+        "deb 8 ",
+        "de tam"
+      ]
+    },
+    {
+      "type": " deb ",
+      "datas": [
+        "dit dac biet",
+        "dit db",
+        "ditdb",
+        "ditdacbiet"
+      ]
+    },
+
+    {
+      "type": " dea ",
+      "datas": [
+        ", dea",
+        "daudb",
+        "dau db",
+        "daudb",
+        "de daudb",
+        "de dau db",
+        "dau dac biet"
+      ]
+    },
+    {
+      "type": "sat",
+      "datas": [
+        " ap "
+      ]
+    },
+
+
+    {
+      "type": " kep",
+      "datas": [
+        "nkep",
+        "ke p",
+        "nep",
+        "chap"
+      ]
+    },
+
+    {
+      "type": " kep bang ",
+      "datas": [
+        "kepbang",
+        "kep bang",
+        "kep.bang",
+        "kep,bang",
+        "kep-bang",
+        "kep bag",
+        "kb ",
+        "kep b ",
+        "kepban ",
+        "kepbangg"
+      ]
+    },
+    {
+      "type": " kep lech ",
+      "datas": [
+        "keplech",
+        "kep lech",
+        "kep.lech",
+        "kep,lech",
+        "kep-lech",
+        "keplach",
+        "kep lach",
+        "kl "
+      ]
+    },
+    {
+      "type": " xn ",
+      "datas": [
+        "xinhay",
+        "x,nhay",
+        "xi nhay",
+        "xien nhay",
+        "xnhay",
+        "xinhay"
+      ]
+    },
+
+    {
+      "type": " dan ",
+      "datas": [
+        "gian",
+        "dan tu",
+        "gia n",
+        "da n"
+      ]
+    },
+    {
+      "type": " dan 09 ",
+      "datas": [
+        "tu 00 den 99",
+        "100 con",
+        "100 so"
+      ]
+    },
+
+    {
+      "type": "tong",
+      "datas": [
+        "tg",
+        "tng",
+        "to ng "
+      ]
+    },
+    {
+      "type": "dau",
+      "datas": [
+        "d a u",
+        "d au ",
+        "da u "
+      ]
+    },
+    {
+      "type": "dit",
+      "datas": [
+        "d i t",
+        "di t ",
+        "d it",
+        "di t",
+        "dich",
+        "di ch "
+      ]
+    },
+
+    {
+      "type": " lo ",
+      "datas": [
+        "bao lo",
+        "l o",
+        "lo ",
+        "no ",
+        "loo",
+        "bao"
+      ]
+    },
+
+    {
+      "type": " bc ",
+      "datas": [
+        "cg",
+        "cng",
+        "cag",
+        "cang",
+        "kang",
+        "de bc",
+        "deb bc",
+        "cng",
+        "ba bc",
+        "de 3 bc",
+        "ba bc",
+        "babc",
+        "ba bc",
+        " 3 bc"
+      ]
+    },
+
+    {
+      "type": " xi",
+      "datas": [
+        "loxien",
+        "lo xien",
+        "lo xi",
+        "lxi",
+        "loxi",
+        "lo xi",
+        "xien",
+        "xuyen"
+      ]
+    },
+    {
+      "type": " xq ",
+      "datas": [
+        "xienquay",
+        "xquay",
+        " x quay",
+        "xien quay",
+        "xi quay",
+        "xi xoay",
+        "xiq",
+        "x q",
+        "xien bo"
+      ]
+    },
+    {
+      "type": " xg 2 ",
+      "datas": [
+        "xienghep2",
+        "xienghep2",
+        "xien ghep 2",
+        "xien ghep2",
+        "ghep xien 2",
+        "ghepxien2",
+        "ghep xi2",
+        "ghepxi2",
+        "xi ghep 2",
+        "xq x2"
+      ]
+    },
+    {
+      "type": " xg 3 ",
+      "datas": [
+        "xienghep3",
+        "xienghep 3",
+        "xien ghep 3",
+        "xien ghep3",
+        "ghep xien 3",
+        "ghepxien3",
+        "ghep xi3",
+        "ghepxi3",
+        "xi ghep 3",
+        "xq x3"
+      ]
+    },
+    {
+      "type": " xg 4 ",
+      "datas": [
+        "xienghep4",
+        "xien ghep4",
+        "xien ghep 4",
+        "xien ghep4",
+        "ghep xien 4",
+        "ghepxien4",
+        "ghep xi4",
+        "ghepxi4",
+        "xi ghep 4",
+        "xq x4"
+      ]
+    },
+    {
+      "type": " cham ",
+      "datas": [
+        "cha m",
+        "c ham",
+        "dinh",
+        "djnh"
+      ]
+    },
+
+    {
+      "type": " dau 01234 ",
+      "datas": [
+        "dau be",
+        "daube",
+        "dau.be",
+        "dau,be",
+        "dau nho",
+        "daunho",
+        "dau.nho",
+        "dau,nho",
+        "dau thap",
+        "dauthap",
+        "dau.thap",
+        "dau,thap"
+      ]
+    },
+    {
+      "type": "dau 56789",
+      "datas": [
+        "daulon",
+        "dau lon",
+        "dau.lon",
+        "dau,lon",
+        "dauto",
+        "dau to",
+        "dau.to",
+        "dau,to",
+        "daucao",
+        "dau cao",
+        "dau.cao",
+        "dau,cao"
+      ]
+    },
+    {
+      "type": " dau 02468 ",
+      "datas": [
+        "dauchan",
+        "dau chan",
+        "dau.chan",
+        "dau,chan"
+      ]
+    },
+    {
+      "type": " dau 13579 ",
+      "datas": [
+        "daule",
+        "dau le",
+        "dau.le",
+        "dau,le"
+      ]
+    },
+    {
+      "type": " cham 01234 ",
+      "datas": [
+        "cham be",
+        "chambe",
+        "cham.be",
+        "cham,be",
+        "cham nho",
+        "chamnho",
+        "cham.nho",
+        "cham,nho",
+        "cham thap",
+        "chamthap",
+        "cham.thap",
+        "cham,thap"
+      ]
+    },
+    {
+      "type": " cham 56789 ",
+      "datas": [
+        "chamlon",
+        "cham lon",
+        "cham.lon",
+        "cham,lon",
+        "chamto",
+        "cham to ",
+        "cham.to ",
+        "cham,to ",
+        "chamcao",
+        "cham cao",
+        "cham.cao",
+        "cham,cao"
+      ]
+    },
+    {
+      "type": " cham 02468 ",
+      "datas": [
+        "chamchan",
+        "cham chan",
+        "cham.chan",
+        "cham,chan"
+      ]
+    },
+    {
+      "type": " cham 13579 ",
+      "datas": [
+        "chamle",
+        "cham le",
+        "cham.le",
+        "cham,le"
+      ]
+    },
+    {
+      "type": " dau dit ",
+      "datas": [
+        "dau, dit",
+        "daudit",
+        "dau duoi",
+        "dauduoi",
+        "dau.dit",
+        "dau,dit"
+      ]
+    },
+    {
+      "type": " hc ",
+      "datas": [
+        "haicua",
+        "de2cua",
+        "2cua",
+        "de 2 cua",
+        "2 cua",
+        "de hai cua",
+        "hai cua",
+        "devaditnhat",
+        "de va dit nhat",
+        "de va ditnhat",
+        "de va nhat"
+      ]
+    },
+    {
+      "type": " dec ",
+      "datas": [
+        "dedaunhat",
+        "dedau nhat",
+        "daunhat",
+        "dau nhat",
+        "dau.nhat",
+        "dau_nhat",
+        "dau-nhat",
+        "dau,nhat",
+        "dedaug1",
+        "de daug1",
+        "daug1",
+        "dau g1",
+        "daugiai1",
+        "dau giai1",
+        "dau giai 1",
+        "daugiai 1",
+        "dau g1"
+      ]
+    },
+    {
+      "type": " ded ",
+      "datas": [
+        "dit nhat",
+        "dit.nhat",
+        "dit_nhat",
+        "dit-nhat",
+        "dit,nhat",
+        "dit giai nhat",
+        "ditgiai nhat",
+        "dit giainhat",
+        "ditgiainhat",
+        "giainhat",
+        "giai nhat",
+        "giai.nhat",
+        "giai_nhat",
+        "giai-nhat",
+        "giai,nhat",
+        "ditg1",
+        "dit g1",
+        "ditgiai1",
+        "dit giai1"
+      ]
+    },
+    {
+      "type": " dit 01234 ",
+      "datas": [
+        "dit be",
+        "ditbe",
+        "dit.be",
+        "dit,be",
+        "dit nho",
+        "ditnho",
+        "dit.nho",
+        "dit,nho",
+        "dit thap",
+        "ditthap",
+        "dit.thap",
+        "dit,thap"
+      ]
+    },
+    {
+      "type": " dit 56789 ",
+      "datas": [
+        "dit lon",
+        "ditlon",
+        "dit.lon",
+        "dit,lon",
+        "dit cao",
+        "ditcao",
+        "dit.cao",
+        "dit,cao",
+        "dit to",
+        "ditto",
+        "dit.to",
+        "dit,to"
+      ]
+    },
+    {
+      "type": " dit 02468 ",
+      "datas": [
+        "dit chan",
+        "ditchan",
+        "dit.chan",
+        "dit,chan"
+      ]
+    },
+    {
+      "type": " dit 13579 ",
+      "datas": [
+        "dit le",
+        "ditle",
+        "dit,le"
+      ]
+    },
+
+    {
+      "type": " tong 01234 ",
+      "datas": [
+        "tong be",
+        "tongbe",
+        "tong.be",
+        "tong,be",
+        "tong nho",
+        "tongnho",
+        "tong.nho",
+        "tong,nho",
+        "tong thap",
+        "tongthap",
+        "tong.thap",
+        "tong,thap"
+      ]
+    },
+    {
+      "type": " tong 56789 ",
+      "datas": [
+        "tong lon",
+        "tonglon",
+        "tong.lon",
+        "tong,lon",
+        "tong cao",
+        "tongcao",
+        "tong.cao",
+        "tong,cao",
+        "tong to",
+        "tongto",
+        "tong.to",
+        "tong,to"
+      ]
+    },
+    {
+      "type": " tong 02468 ",
+      "datas": [
+        "tong chan",
+        "tongchan",
+        "tong.chan",
+        "tong,chan",
+        "tonchan",
+        "ton chan"
+      ]
+    },
+    {
+      "type": " tong 13579 ",
+      "datas": [
+        "tong le",
+        "tongle",
+        "tong.le",
+        "tong,le",
+        "tonle",
+        "ton le"
+      ]
+    },
+
+    {
+      "type": " chan chan ",
+      "datas": [
+        "chanchan",
+        "chan chan",
+        "chan.chan",
+        "chan,chan",
+        "chan-chan"
+      ]
+    },
+    {
+      "type": " chan le ",
+      "datas": [
+        "chanle",
+        "chan le",
+        "chan.le",
+        "chan,le",
+        "chan-le"
+      ]
+    },
+    {
+      "type": " le le ",
+      "datas": [
+        "lele",
+        "le le",
+        "le.le",
+        "le,le",
+        "le-le"
+      ]
+    },
+    {
+      "type": " le chan ",
+      "datas": [
+        "lechan",
+        "le chan",
+        "le.chan",
+        "le,chan",
+        "le-chan"
+      ]
+    },
+
+    {
+      "type": " nho nho ",
+      "datas": [
+        "bebe",
+        "be be",
+        "be.be",
+        "be,be",
+        "be-be",
+        "nho nho",
+        "nhonho",
+        "nho.nho",
+        "nho,nho",
+        "nho-nho",
+        "thap thap",
+        "thapthap",
+        "thap.thap",
+        "thap,thap",
+        "thap-thap"
+      ]
+    },
+    {
+      "type": " nho to ",
+      "datas": [
+        "belon",
+        "be lon",
+        "be.lon",
+        "be,lon",
+        "be-lon",
+        "nho to ",
+        "nhoto ",
+        "be to ",
+        "beto ",
+        "nhoto ",
+        "nhoto ",
+        "nho.to ",
+        "nho,to ",
+        "nho-to ",
+        "thap cao",
+        "thapcao",
+        "thap.cao",
+        "thap,cao",
+        "thap-cao"
+      ]
+    },
+    {
+      "type": " to to ",
+      "datas": [
+        "lonlon",
+        "lon lon",
+        "lon.lon",
+        "lon,lon",
+        "lon-lon",
+        "to to ",
+        "toto ",
+        "to.to ",
+        "to,to ",
+        "to-to ",
+        "cao cao",
+        "caocao",
+        "cao.cao",
+        "cao,cao",
+        "cao-cao"
+      ]
+    },
+    {
+      "type": " to nho ",
+      "datas": [
+        "lonbe",
+        "lon be",
+        "lon.be",
+        "lon,be",
+        "lon-be",
+        "to be",
+        "tobe",
+        "to nho",
+        "tonho",
+        "to.nho",
+        "to,nho",
+        "to-nho",
+        "cao thap",
+        "caothap",
+        "cao.thap",
+        "cao,thap",
+        "cao-thap"
+      ]
+    },
+    {
+      "type": " sat 2 kep ",
+      "datas": [
+        "sat hai kep",
+        "sathaikep",
+        "sat haikep",
+        "sathai kep"
+      ]
+    },
+    {
+      "type": " sat kep lech ",
+      "datas": [
+        "satkep lech",
+        "sat keplech",
+        "sat,kep lech",
+        "sat-keplech"
+      ]
+    },
+    {
+      "type": " sat kep ",
+      "datas": [
+        "satkep",
+        "sat kep",
+        "sat.kep",
+        "sat,kep",
+        "sat-kep"
+      ]
+    },
+
+    {
+      "type": " ko chia 3 ",
+      "datas": [
+        "tong ko chia het cho 3",
+        "tong ko chia het 3",
+        "ko chia het 3",
+        "kochiahetcho3",
+        "ko chia het cho 3",
+        "ko chia 3",
+        "ko chia3",
+        "ko chia het 3",
+        "ko chiahet3",
+        "ko chia het3"
+      ]
+    },
+
+    {
+      "type": " tong chia 3 ",
+      "datas": [
+        "tong chia het cho 3",
+        "tong chia het 3",
+        "chiahetcho3",
+        "chia het cho 3",
+        "chia het 3",
+        "chiahet 3",
+        "chia het 3"
+      ]
+    },
+
+    {
+      "type": " chia 3 du 1 ",
+      "datas": [
+        "chia3du1",
+        "chia 3 du 1",
+        "chia3 du1",
+        "chiahet3 du 1",
+        "chiahetcho3 du 1"
+      ]
+    },
+
+    {
+      "type": " chia 3 du 2 ",
+      "datas": [
+        "chia3du2",
+        "chia 3 du 2",
+        "chia3 du2",
+        "chia cho 3 du 2"
+      ]
+    },
+
+    {
+      "type": " x ",
+      "datas": [
+        "x ",
+        "mc x",
+        "mc nhan",
+        "moi con x",
+        "moicon x",
+        "ms x",
+        "ms nhan",
+        "moi so nhan",
+        "mot so x",
+        "mot so nhan",
+        "mc=",
+        "mc =",
+        "ms=",
+        "ms =",
+        "moi con=",
+        "moi con =",
+        "moicon =",
+        "moicon=",
+        "nhan",
+        "mcon",
+        "mc",
+        "m c",
+        "m.c",
+        "m,c",
+        "m-c",
+        "m_c",
+        "m;c",
+        "moicon",
+        "moi con",
+        "moi.con",
+        "moi,con",
+        "moi-con",
+        "moi_con",
+        "moi;con",
+        "motcon",
+        "mot con",
+        "mot.con",
+        "mot,con",
+        "mot-con",
+        "mot_con",
+        "mot;con",
+        "moi so",
+        "ms",
+        "mot so",
+        "motso",
+        "x =",
+        "= x",
+        "x=",
+        "=x",
+        "moi cap",
+        "tat ca"
+      ]
+    },
+
+    {
+      "type": " tr ",
+      "datas": [
+        "trieu",
+        "trjeu"
+      ]
+    },
+    {
+      "type": " n ",
+      "datas": [
+        "nghin",
+        "nghi n",
+        "ngin",
+        " ng ",
+        " m ",
+        "ngan"
+      ]
+    },
+    {
+      "type": " d ",
+      "datas": [
+        "diem",
+        "djem",
+        "die m"
+      ]
+    },
+    {
+      "type": " ghepdd ",
+      "datas": [
+        "gheptrong",
+        "geptrong",
+        "gep trong",
+        "ghep trong",
+        "dau ghep dit"
+      ]
+    },
+
+    {
+      "type": " tong > 10 ",
+      "datas": [
+        "tongtren 10",
+        "tong> 10",
+        "tong tren 10",
+        "tongtrenmuoi",
+        "tong tren muoi"
+      ]
+    },
+
+    {
+      "type": " tong < 10 ",
+      "datas": [
+        "tong duoi 10",
+        "tong< 10",
+        "tong <10",
+        "tongduoi 10"
+      ]
+    },
+    {
+      "type": " ghep dit ",
+      "datas": [
+        "ghepdit",
+        "gepdit",
+        "gep dit",
+        "ghep dit",
+        "ghe p dit"
+      ]
+    }
+  ]
+}

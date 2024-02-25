@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "tamhoang.ldpro4.dev",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 20231009,
+      "versionName": "3.0",
+      "outputFile": "ldpro_3.0_20231009.apk"
+    }
+  ],
+  "elementType": "File"
+}

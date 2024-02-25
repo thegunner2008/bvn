@@ -1,0 +1,46 @@
+{"listKHs":[
+			{"str":"giap tij","repl_str":"05,17,29,41,53,65,77,89,"}
+			,{"str":"giap tis","repl_str":"00,12,24,36,48,60,72,84,96,"}
+			,{"str":"giap tys","repl_str":"00,12,24,36,48,60,72,84,96,"}
+			,{"str":"giap suu","repl_str":"01,13,25,37,49,61,73,85,97,"}
+			,{"str":"giap dan","repl_str":"02,14,26,38,50,62,74,86,98,"}
+			,{"str":"giap mao","repl_str":"03,15,27,39,51,63,75,87,99,"}
+			,{"str":"giap thin","repl_str":"04,16,28,40,52,64,76,88,"}
+			,{"str":"giap tyj","repl_str":"05,17,29,41,53,65,77,89,"}
+			,{"str":"giap ngo","repl_str":"06,18,30,42,54,66,78,90,"}
+			,{"str":"giap mui","repl_str":"07,19,31,43,55,67,79,91,"}
+			,{"str":"giap than","repl_str":"08,20,32,44,56,68,80,92,"}
+			,{"str":"giap dau","repl_str":"09,21,33,45,57,69,81,93,"}
+			,{"str":"giap tuat","repl_str":"10,22,34,46,58,70,82,94,"}
+			,{"str":"giap hoi","repl_str":"11,23,35,47,59,71,83,95,"}
+			,{"str":"cua","repl_str":"trung"}
+			,{"str":":","repl_str":" "}
+			,{"str":"\"","repl_str":","}
+			,{"str":"(","repl_str":" "}
+			,{"str":")","repl_str":";"}
+			,{"str":"dan dan","repl_str":" dan "}
+			,{"str":"de bor","repl_str":" de dan 09 bor "}
+			,{"str":"dea bor","repl_str":" dea dan 09 bor "}
+			,{"str":"deb bor","repl_str":" deb dan 09 bor "}
+			,{"str":"dec bor","repl_str":" dec dan 09 bor "}
+			,{"str":"ded bor","repl_str":" ded dan 09 bor "}
+			,{"str":"giai nhat","repl_str":"nhat"}
+			,{"str":"de de","repl_str":" de"}
+			,{"str":"dede","repl_str":" de"}
+			,{"str":"hai kep","repl_str":" 00,11,22,33,44,55,66,77,88,99,050,161,272,383,494 "}
+			,{"str":"sat hai kep","repl_str":" 010,121,232,343,454,565,676,787,898,04,06,15,17,26,28,37,39,48,51,60,62,71,73,82,84,93,95 "}
+			,{"str":"sat 2 kep","repl_str":" 010,121,232,343,454,565,676,787,898,04,06,15,17,26,28,37,39,48,51,60,62,71,73,82,84,93,95 "}
+			,{"str":"*","repl_str":" x "}
+			,{"str":"\u0110","repl_str":"d "}
+			,{"str":"\u20ab","repl_str":" d "}
+			,{"str":"x x","repl_str":" x "}
+			,{"str":"xx","repl_str":" x "}
+			,{"str":"\u00d7","repl_str":" x "}
+			,{"str":"\u00e9","repl_str":"e "}
+			,{"str":"\/ 1 so","repl_str":" "}
+			,{"str":"\/ 1 s","repl_str":" "}
+			,{"str":"\/","repl_str":";"}
+			,{"str":" 1 s ","repl_str":" "}
+			,{"str":"_","repl_str":", "}
+	]
+} 

@@ -1,0 +1,7 @@
+Executable : /Users/doanhuy/Library/Android/sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/Users/doanhuy/StudioProjects/Ldpro/app/.cxx/Debug/3r3m5qh2/arm64-v8a
+dev
+jvmArgs : 
+

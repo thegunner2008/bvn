@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/doanhuy/StudioProjects/Ldpro/app/.cxx/RelWithDebInfo/2112n2g4/armeabi-v7a",
+  "command": "/Users/doanhuy/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/Users/doanhuy/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/doanhuy/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Ddev_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles/dev.dir/dev.cpp.o -c /Users/doanhuy/StudioProjects/Ldpro/app/src/main/cpp/dev.cpp",
+  "file": "/Users/doanhuy/StudioProjects/Ldpro/app/src/main/cpp/dev.cpp"
+}
+]

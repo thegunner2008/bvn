@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#00aff0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Baocaochitiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-7dp"
+            android:layout_marginBottom="-7dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text=" Báo cáo chi tiết"
+            android:textAlignment="textStart"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tinhlaitien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-7dp"
+            android:layout_marginBottom="-7dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text=" Tính lại tiền Khách này"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-7dp"
+            android:layout_marginBottom="-7dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text=" Cài đặt Giữ %"
+            android:textAlignment="textStart" />
+
+        <Switch
+            android:id="@+id/switchX"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đại lý giữ: (Giữ lại cho mình)"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="  Giữ đề:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seek_GiuDedly"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:max="20" />
+
+            <TextView
+                android:id="@+id/pt_giu_de_dly"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="  Giữ lô:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seek_GiuLodly"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:max="20" />
+
+            <TextView
+                android:id="@+id/pt_giu_lo_dly"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="  Giữ xiên:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seek_GiuXidly"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:max="20" />
+
+            <TextView
+                android:id="@+id/pt_giu_xi_dly"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="  Giữ 3c:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seek_Giu3cdly"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:max="20" />
+
+            <TextView
+                android:id="@+id/pt_giu_bc_dly"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Khách hàng giữ: (Giữ cho khách chuyển)"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ln21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="  Giữ đề:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seek_GiuDekhach"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:max="20" />
+
+            <TextView
+                android:id="@+id/pt_giu_de_khach"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="  Giữ lô:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seek_GiuLokhach"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:max="20" />
+
+            <TextView
+                android:id="@+id/pt_giu_lo_khach"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="  Giữ xiên:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seek_GiuXikhach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:max="20" />
+
+            <TextView
+                android:id="@+id/pt_giu_xi_khach"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="  Giữ 3c:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seek_Giu3ckhach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:max="20" />
+
+            <TextView
+                android:id="@+id/pt_giu_bc_khach"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/nhanchottien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-7dp"
+            android:layout_marginBottom="-7dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text=" Nhắn tin chốt tiền"
+            android:textAlignment="textStart"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/copytinchitiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-7dp"
+            android:layout_marginBottom="-7dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text=" Copy tin chốt tiền chi tiết"
+            android:textAlignment="textStart"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/copytinchotien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-7dp"
+            android:layout_marginBottom="-7dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text=" Copy tin chốt tiền"
+            android:textAlignment="textStart"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/xoadulieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-7dp"
+            android:layout_marginBottom="-7dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text=" Xóa dữ liệu hôm nay"
+            android:textAlignment="textStart"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

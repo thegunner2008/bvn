@@ -1,0 +1,11 @@
+# ninja log v5
+0	837	1701799714	CMakeFiles/dev.dir/dev.cpp.o	450736e68db15e38
+837	970	1701799714	/Users/doanhuy/StudioProjects/Ldpro/app/build/intermediates/cxx/RelWithDebInfo/2112n2g4/obj/arm64-v8a/libdev.so	a1dff942ae3f0a7a
+1	754	1701800041	CMakeFiles/dev.dir/dev.cpp.o	450736e68db15e38
+754	891	1701800041	/Users/doanhuy/StudioProjects/Ldpro/app/build/intermediates/cxx/RelWithDebInfo/2112n2g4/obj/arm64-v8a/libdev.so	a1dff942ae3f0a7a
+3	480	1701801387	CMakeFiles/dev.dir/dev.cpp.o	450736e68db15e38
+480	626	1701801387	/Users/doanhuy/StudioProjects/Ldpro/app/build/intermediates/cxx/RelWithDebInfo/2112n2g4/obj/arm64-v8a/libdev.so	a1dff942ae3f0a7a
+1	775	1701802257	CMakeFiles/dev.dir/dev.cpp.o	450736e68db15e38
+775	928	1701802257	/Users/doanhuy/StudioProjects/Ldpro/app/build/intermediates/cxx/RelWithDebInfo/2112n2g4/obj/arm64-v8a/libdev.so	a1dff942ae3f0a7a
+0	367	1705163406	CMakeFiles/dev.dir/dev.cpp.o	450736e68db15e38
+368	486	1705163406	/Users/doanhuy/StudioProjects/Ldpro/app/build/intermediates/cxx/RelWithDebInfo/2112n2g4/obj/arm64-v8a/libdev.so	a1dff942ae3f0a7a

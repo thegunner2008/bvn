@@ -1,0 +1,3 @@
+ninja: Entering directory `/Users/doanhuy/StudioProjects/Ldpro/app/.cxx/RelWithDebInfo/2112n2g4/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/dev.dir/dev.cpp.o
+[2/2] Linking CXX shared library /Users/doanhuy/StudioProjects/Ldpro/app/build/intermediates/cxx/RelWithDebInfo/2112n2g4/obj/arm64-v8a/libdev.so

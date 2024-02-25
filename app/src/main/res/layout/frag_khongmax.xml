@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeBackLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202350"
+    app:isSwipeFromEdge="true"
+    app:maskAlpha="180"
+    app:swipeBackFactor="0.5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="BẢNG KHỐNG NHẬN SỐ \n (Tự động trả lại số thừa)"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ln_nhom1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_6dp"
+                        android:background="#202350"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Khống nhận Đề:"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen_6dp"
+                        android:weightSum="1">
+
+                        <EditText
+                            android:id="@+id/edt_NhapDanDe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_edit_text"
+                            android:hint="Nhập khống:\nví dụ: 100 so x 10000 \nđầu 1 x 4000"
+                            android:padding="@dimen/dimen_4dp"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_6dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_KhongDe"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/dimen_8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_button1"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Lưu/Sửa khống tiền"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/btn_XoaDe"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_button1"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Xoá khống"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_nhomDeDauDB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_6dp"
+                        android:background="#202350"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Khống nhận Đề Đầu DB:"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen_6dp"
+                        android:weightSum="1">
+
+                        <EditText
+                            android:id="@+id/edt_NhapDanDeDauDB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_edit_text"
+                            android:hint="Nhập khống:\nví dụ: 100 so x 10000 \nđầu 1 x 4000"
+                            android:padding="@dimen/dimen_4dp"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_6dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_KhongDeDauDB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/dimen_8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_button"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Lưu/Sửa khống tiền"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/btn_XoaDeDauDB"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_button"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Xoá khống"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_nhomDeDauG1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_6dp"
+                        android:background="#202350"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Khống nhận Đề Đầu Giải Nhất:"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen_6dp"
+                        android:weightSum="1">
+
+                        <EditText
+                            android:id="@+id/edt_NhapDanDeDauG1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_edit_text"
+                            android:hint="Nhập khống:\nví dụ: 100 so x 10000 \nđầu 1 x 4000"
+                            android:padding="@dimen/dimen_4dp"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_6dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_KhongDeDauG1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/dimen_8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_button1"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Lưu/Sửa khống tiền"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/btn_XoaDeDauG1"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_button1"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Xoá khống"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_nhomDeDitG1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_6dp"
+                        android:background="#202350"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Khống nhận Đề Đít Giải Nhất:"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen_6dp"
+                        android:weightSum="1">
+
+                        <EditText
+                            android:id="@+id/edt_NhapDanDeDitG1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_edit_text"
+                            android:hint="Nhập khống:\nví dụ: 100 so x 10000 \nđầu 1 x 4000"
+                            android:padding="@dimen/dimen_4dp"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_6dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_KhongDeDitG1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/dimen_8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_button"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Lưu/Sửa khống tiền"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/btn_XoaDeDitG1"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_button"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Xoá khống"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#202350"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Khống nhận Lô:"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen_6dp"
+                        android:weightSum="1">
+
+                        <EditText
+                            android:id="@+id/edt_NhapDanLo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_edit_text"
+                            android:hint="Nhập khống:\nví dụ: 100 so x 10000\nđầu 1 x 4000"
+                            android:padding="@dimen/dimen_4dp"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_6dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_KhongLo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/dimen_8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_button1"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Lưu/Sửa khống tiền"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/btn_XoaLo"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_button1"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Xoá khống"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:background="#202350"
+                    android:padding="@dimen/dimen_4dp"
+                    android:text="Khống nhận Xiên, 3 càng:"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/ln_nhom2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="50dp"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="5dp"
+                                    android:text="Xiên 2:"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/giuxien2"
+                                    android:layout_width="116dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/edit_background"
+                                    android:hint="0"
+                                    android:inputType="number"
+                                    android:padding="@dimen/dimen_6dp"
+                                    android:textAlignment="viewEnd"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="50dp"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="5dp"
+                                    android:text="Xiên 3:"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/giuxien3"
+                                    android:layout_width="116dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/edit_background"
+                                    android:hint="0"
+                                    android:inputType="number"
+                                    android:padding="5dp"
+                                    android:textAlignment="viewEnd"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="50dp"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="5dp"
+                                    android:text="Xiên 4:"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/giuxien4"
+                                    android:layout_width="116dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/edit_background"
+                                    android:hint="0"
+                                    android:inputType="number"
+                                    android:padding="5dp"
+                                    android:textAlignment="viewEnd"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="50dp"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="5dp"
+                                    android:text="Càng:   "
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/giu3cang"
+                                    android:layout_width="116dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/edit_background"
+                                    android:hint="0"
+                                    android:inputType="number"
+                                    android:padding="5dp"
+                                    android:textAlignment="viewEnd"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_6dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_KhongXienCang"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/dimen_8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_button"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Lưu/Sửa xiên + càng"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/btn_XoaXien"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_button"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="Xoá khống"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/dimen_10dp"
+                    android:text=" *Lưu ý:"
+                    android:textColor="@color/red"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text=" 1. Phần Đề và Lô:\n Ví dụ: Khống khách 100 số max = 10000 và chỉ nhận đầu 1 max = 4000 thì nhập vào dàn giữ là (100 số x 10000, dau1 x 4000)"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="  Nếu khống max 1 con hoặc 1 dàn: Ví dụ lô 69 gan &gt;&gt; chỉ cần nhập vào mục Lô 69 x 1000 thì riêng số 69 sẽ bị khống max = 1000! Các số không khống sẽ được nhân hết."
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text=" 2. Xiên 2, xiên 3, xiên 4 và ba càng sẽ chỉ khống max chứ không có chức năng khống theo từng số chi tiết."
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

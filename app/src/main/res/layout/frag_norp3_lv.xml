@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00aff0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khách hàng:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_no_KH"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingRight="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/red"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tin:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_no_TinNhan"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/red"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tg. nhận:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_no_TG_nhan"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:textColor="@color/red"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Đầu ĐB:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_diemdea"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Đề:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_andea"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Đề:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_Dea"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Tiền đề"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_ThangThuaDea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="7dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Đề:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_diemde"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Đề:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_ande"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Đề:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_De"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Tiền đề"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_ThangThuaDe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="7dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Đề 8:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_diemdet"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Đề:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_andet"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Đề:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_Det"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Tiền đề"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_ThangThuaDet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="7dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Đầu G1:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_diemdec"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Đề:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_andec"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Đề:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_Dec"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Tiền đề"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_ThangThuaDec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="7dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Đít G1:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_diemded"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Đề:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_anded"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Đề:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_Ded"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Tiền đề"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_ThangThuaDed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="7dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Lô:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_diemlo"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Lô:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_anlo"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Lô:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_Lo"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Tiền lô"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_ThangThuaLo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="7dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Xiên:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_diemxi"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Xiên:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_anxi"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Xiên:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_Xi"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Tiền xiên"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_ThangThuaXi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="7dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Xiên:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_diemxn"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Xiên:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_anxn"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Xiên:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_Xn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Tiền xiên"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_ThangThuaXn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="7dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="3Càng:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_diembc"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="3 càng"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_anbc"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="3 càng:"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_Bc"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Tiền 3 càng"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_no_ThangThuaBc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="7dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="7dp"
+                android:text="Tổng:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_no_Tong"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Tổng tiền"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_no_ThangThua"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="7dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_no_rp_nd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:paddingLeft="7dp"
+        android:text="Noi dung tin nhan"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_ndpt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:paddingLeft="7dp"
+        android:text="ND phan tich"
+        android:textSize="14dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+</LinearLayout>

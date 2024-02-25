@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="#00aff0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mẫu tin nhắn"
+        android:textAlignment="center"/>
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#f40b17"
+        android:id="@+id/tv_mautin"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cảm ơn Quý khách đã sử dụng phần mềm LdPro, ưu điểm đầu tiên của phần mềm là xử lý được tiếng Việt có dấu và tự động nhận dạng tất cả các dạng tin nhắn."/>
+    <TextView
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_giaithich"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quý khách hãy đọc và thuộc lòng các dạng để nắm được cách xử lý dữ liệu của LdPro."/>
+    <View
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <ListView
+        android:id="@+id/lv_template_sms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

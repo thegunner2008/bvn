@@ -1,0 +1,9 @@
+# ninja log v5
+0	408	1701800736	CMakeFiles/dev.dir/dev.cpp.o	fb9e9adc880a340a
+409	506	1701800737	/Users/doanhuy/StudioProjects/Ldpro/app/build/intermediates/cxx/RelWithDebInfo/2112n2g4/obj/x86_64/libdev.so	7989017cf2fdae61
+0	401	1701801388	CMakeFiles/dev.dir/dev.cpp.o	fb9e9adc880a340a
+402	523	1701801388	/Users/doanhuy/StudioProjects/Ldpro/app/build/intermediates/cxx/RelWithDebInfo/2112n2g4/obj/x86_64/libdev.so	7989017cf2fdae61
+0	421	1701802347	CMakeFiles/dev.dir/dev.cpp.o	fb9e9adc880a340a
+421	555	1701802347	/Users/doanhuy/StudioProjects/Ldpro/app/build/intermediates/cxx/RelWithDebInfo/2112n2g4/obj/x86_64/libdev.so	7989017cf2fdae61
+3	453	1705163407	CMakeFiles/dev.dir/dev.cpp.o	fb9e9adc880a340a
+454	693	1705163407	/Users/doanhuy/StudioProjects/Ldpro/app/build/intermediates/cxx/RelWithDebInfo/2112n2g4/obj/x86_64/libdev.so	7989017cf2fdae61

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#00aff0"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/stt"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text="99"
+        android:textAlignment="textEnd"
+        android:textColor="@color/red"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Tv_so"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="00,05,07,09"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_diemNhan"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/Tv_so"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:text="Nhận"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_diemGiu"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv_diemNhan"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:text="Giữ"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_thanhtien"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv_diemGiu"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingRight="7dp"
+            android:text="Tồn"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+    </LinearLayout>
+</LinearLayout>

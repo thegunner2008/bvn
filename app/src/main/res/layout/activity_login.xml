@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00aff0"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Đã cài đặt thành công"
+        android:textColor="@color/red" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:paddingRight="20dp"
+        android:text="Hãy đảm bảo phần mềm luôn mở và kết nối Internet trong thời gian làm việc để cập nhật thuật toán xử lý tin nhắn mới nhất và phục vụ công việc tốt hơn."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:paddingRight="20dp"
+        android:text="Phần mềm BVN master là công cụ giúp cho các đại lý công ty xổ số Thủ đô tính tiền và thống kê số liệu. Nghiêm cấm sử dụng vào mục đích cờ bạc."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:paddingRight="20dp"
+        android:text="Tác giả hoàn toàn không chịu trách nhiệm nếu khách hàng sử dụng sai mục đích nêu trên."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="BVN master"
+        android:textAlignment="textEnd"
+        android:textColor="#fb4777"
+        android:textStyle="bold" />
+</LinearLayout>

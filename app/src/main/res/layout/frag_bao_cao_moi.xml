@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00aff0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Dạng"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nhận"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Chuyển"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/li_dea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="Đầu ĐB"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/dea_Nhan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/dea_NhanAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/dea_Chuyen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/dea_ChuyenAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="Đề"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/deb_Nhan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/deb_NhanAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/deb_Chuyen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/deb_ChuyenAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/li_det"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="Đề 8"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/det_Nhan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/det_NhanAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/det_Chuyen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/det_ChuyenAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/li_dec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="Đầu G1"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/dec_Nhan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/dec_NhanAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/dec_Chuyen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/dec_ChuyenAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/li_ded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="Đít G1"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/ded_Nhan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/ded_NhanAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/ded_Chuyen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/ded_ChuyenAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="Lô"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/lo_Nhan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/lo_NhanAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/lo_Chuyen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/lo_ChuyenAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/li_loa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="Lô đầu"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/loa_Nhan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/loa_NhanAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/loa_Chuyen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/loa_ChuyenAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/li_xi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="Xiên"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/xi2_Nhan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/xi2_NhanAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/xi2_Chuyen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/xi2_ChuyenAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/li_xia2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="Xiên đầu"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/xia2_Nhan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/xia2_NhanAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/xia2_Chuyen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/xia2_ChuyenAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/li_xn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="X.nháy"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/xn_Nhan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/xn_NhanAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/xn_Chuyen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/xn_ChuyenAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="3 càng"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/bc_Nhan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/bc_NhanAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/bc_Chuyen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/bc_ChuyenAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/li_bca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="BC đầu"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/bca_Nhan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/bca_NhanAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/bca_Chuyen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/bca_ChuyenAn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical|center_horizontal|center"
+            android:text="Tổng tiền:"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_TongTienNhan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_TongTienChuyen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical|center_horizontal|center|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_tenKH"
+            android:layout_width="160dp"
+            android:padding="@dimen/dimen_6dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="TỔNG HỢP CHUNG:"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Thắng/Thua:    "
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_TongGiu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="@dimen/dimen_6dp"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <ListView
+        android:id="@+id/lv_baocaoKhach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

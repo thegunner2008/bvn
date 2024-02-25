@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dadedf"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00aff0"
+        android:padding="@dimen/dimen_6dp"
+        android:text="Chọn chủ để xuất tin đi:"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/sprin_tenkhach"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        android:background="@drawable/sprinter_background"
+        android:textAlignment="textStart"
+        android:textSize="@dimen/dimen_14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_XuatDan"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/edit_background"
+        android:maxHeight="350dp"
+        android:minHeight="250dp"
+        android:padding="5dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btn_chuyendi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:background="@drawable/bg_button"
+        android:paddingStart="@dimen/dimen_90dp"
+        android:paddingEnd="@dimen/dimen_90dp"
+        android:text="Xuất tin"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+</LinearLayout>
