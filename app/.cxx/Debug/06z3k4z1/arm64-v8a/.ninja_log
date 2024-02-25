@@ -1,3 +1,5 @@
 # ninja log v5
 0	531	1708873020	CMakeFiles/dev.dir/dev.cpp.o	4d40eb661153a8bb
 531	632	1708873020	/Users/doanhuy/StudioProjects/bvn/app/build/intermediates/cxx/Debug/06z3k4z1/obj/arm64-v8a/libdev.so	273c14d08124d25f
+1	906	1708875790	CMakeFiles/dev.dir/dev.cpp.o	4d40eb661153a8bb
+906	1087	1708875790	/Users/doanhuy/StudioProjects/bvn/app/build/intermediates/cxx/Debug/06z3k4z1/obj/arm64-v8a/libdev.so	273c14d08124d25f

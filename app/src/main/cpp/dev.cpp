@@ -14,7 +14,7 @@
 #include <jni.h>
 
 extern "C" JNIEXPORT jstring JNICALL
-Java_tamhoang_ldpro4_ui_main_MainActivity_stringFromJNI(JNIEnv *env, jobject thiz) {
+Java_tamhoang_bvn_ui_main_MainActivity_stringFromJNI(JNIEnv *env, jobject thiz) {
 //    std::string url = "ldpro=fun";
     std::string url = "103=154=244=98:8000";
 

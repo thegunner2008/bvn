@@ -13,7 +13,7 @@ object ApiClient {
         this.baseUrl = baseUrl
         val httpClient = OkHttpClient.Builder().build()
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://${baseUrl.replace("=",".")}")
+            .baseUrl("http://${baseUrl.replace("=",".")}")
             .client(httpClient)
             .addConverterFactory(GsonConverterFactory.create())
             .build()

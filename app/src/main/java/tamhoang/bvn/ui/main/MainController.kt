@@ -15,7 +15,7 @@ import tamhoang.bvn.ui.launcher.LauncherActivity
 import java.io.File
 import java.io.IOException
 
-class MainController(val db: DbOpenHelper) {
+class MainController(val db: DbOpenHelper): Firebase() {
     fun deleteDir(dir: File?): Boolean {
         return if (dir != null && dir.isDirectory) {
             val ableDel = dir.list().any { !deleteDir(File(dir, it)) }
