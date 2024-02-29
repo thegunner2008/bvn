@@ -179,7 +179,7 @@
                             android:layout_height="wrap_content"
                             android:inputType="textPersonName"
                             android:paddingLeft="10dp"
-                            android:text="Liên hệ tác giả và xem video hướng dẫn:"
+                            android:text="Liên hệ để được hỗ trợ về kỹ thuật"
                             android:textColor="@color/black"
                             android:textSize="16dp"
                             android:textStyle="bold" />
@@ -290,7 +290,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="0974.059.645  (Hỗ trợ kỹ thuật)"
+                            android:text="0974.059.845  (Hỗ trợ kỹ thuật)"
                             android:textColor="#e73613"
                             android:textSize="14dp"
                             android:textStyle="bold" />
@@ -301,7 +301,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="10dp"
-                    android:text="  Nâng cấp tính năng:"
+                    android:text="  Thông báo hệ thống:"
                     android:textColor="@color/red"
                     android:textSize="14dp"
                     android:textStyle="bold" />
@@ -310,55 +310,55 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="2dp"
-                    android:text="  - Đăng nhập Telegram cho các máy không thể đăng nhập."
+                    android:text="  -Các tính năng mới sẽ được thông báo tại đây"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="2dp"
-                    android:text="  - Nhận và gửi lô đầu."
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="2dp"-->
+<!--                    android:text=""-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold" />-->
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="2dp"
-                    android:text="  - Khống tất cả khách hàng."
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="2dp"-->
+<!--                    android:text=""-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold" />-->
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="2dp"
-                    android:text="  - Cập nhật tải kết quả xoso.mobi và ketqua.net"
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="2dp"-->
+<!--                    android:text=""-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold" />-->
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="2dp"
-                    android:text="  - Sửa nhanh tin lỗi (Ở bất kỳ màn hình bạn bấm vào quả chuông để chuyển ngay qua màn hình sửa tin."
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="2dp"-->
+<!--                    android:text=""-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold" />-->
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="2dp"
-                    android:text="  - Trả lại tin lỗi ( Trường hợp khách gửi tin lỗi mà không muốn sửa thì giữ tin đó ở phần SỬA TIN NHẮN chọn TRẢ LẠI TIN ):"
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="2dp"-->
+<!--                    android:text=""-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold" />-->
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -372,7 +372,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:padding="2dp"
-                    android:text="-Phần mềm hỗ trợ chạy trang ( Không khuyến khích khách dùng nếu không hiểu rõ cách dùng). Sai sót có thể do thao tác của quý khách hoặc do trang One789 do đó nếu quý khách dùng chức năng này mọi sai lệch chúng tôi không chịu trách nhiệm."
+                    android:text="-Việc sử dụng tính năng chạy trang trong phần mềm không được khuyến khích nếu người dùng không hiểu rõ cách thức hoạt động. Sai sót có thể phát sinh do hành động của người dùng hoặc do hệ thống trang web One789. Vì vậy, nếu quý khách sử dụng tính năng này, mọi rủi ro hoặc sai sót không được chúng tôi chịu trách nhiệm."
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="normal" />
@@ -381,7 +381,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:padding="2dp"
-                    android:text=" - Hãy cài Zalo bản cũ và tắt tự động cập nhật ứng dụng để khắc phục lỗi thiếu tin trên Zalo bản mới."
+                    android:text=" -Hãy cài Zalo bản cũ và tắt tự động cập nhật ứng dụng để khắc phục lỗi thiếu tin trên Zalo bản mới. "
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="normal" />
@@ -399,7 +399,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="2dp"
-                    android:text=" - Phần mềm này được viết nhằm phục vụ cho các đại lý xổ số tính toán số liệu khách hàng. Tác giả hoàn toàn không chịu trách nhiệm nếu người dùng sử dụng phần mềm vào mục đích khác."
+                    android:text=" -Phần mềm này được phát triển để hỗ trợ các đại lý xổ số trong việc tính toán dữ liệu của khách hàng. Tác giả không chịu trách nhiệm nếu người dùng sử dụng phần mềm cho mục đích khác."
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />

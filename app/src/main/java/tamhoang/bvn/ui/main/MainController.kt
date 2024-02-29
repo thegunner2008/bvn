@@ -143,6 +143,6 @@ class MainController(val db: DbOpenHelper): Firebase() {
             })
 
     fun fakeTaiKhoan() {
-        MainState.thongTinAcc = Account("2024-05-05", "0912345678", "vip")
+        MainState.thongTinAcc = Account("2024-05-05", "0974059854", "vip")
     }
 }
