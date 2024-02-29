@@ -114,7 +114,7 @@ public class NotificationReader extends NotificationListenerService {
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, CHANNEL_ID);
         Notification notification = notificationBuilder.setOngoing(true)
                 .setSmallIcon(R.drawable.change)
-                .setContentTitle("LdPro - Đang chạy")
+                .setContentTitle("BVN Master - Đang chạy")
                 .setPriority(PRIORITY_MAX)
                 .setCategory(Notification.CATEGORY_SERVICE).build();
         startForeground(101, notification);
